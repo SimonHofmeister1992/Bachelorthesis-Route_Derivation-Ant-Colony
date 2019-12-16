@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+a {
+    font-size: 24;
+}
+
+table {
+    border: 0px;
+}
+
+td {   
+    padding-left: 2px;
+}
+
+#header{
+    height: 100px;
+}
+
+#logo {
+    width: 500px;
+    float: left;
+}
+#head {
+    width: 20%;
+    float: left;
+}
+
+#footer {
+     text-align: center;
+}
+
+#footer a {
+     font-size: 18px;
+}
+
+.deviceFullStatus {
+  background-color: rgb(255, 0, 0);
+}
+
+.deviceEmptyStatus {
+  background-color: rgb(0, 255, 0);
+}
+
+
+#divimg {
+    float: left;
+    width: 740px;
+}
+
+#binOverviewMap {
+	height: 400%;
+	width: 130%;
+}
+
+#pwidget
+{
+  width:274px;
+  padding:2px;
+  display: none;
+}
+#progressbar
+{
+  width:270px;
+  padding:1px;
+  background-color:white;
+  border:1px solid black;
+  height:28px;
+}
+#indicator
+{
+  width:0px;
+  background-image:url("img/shaded-green.png");
+  height:28px;
+  margin:0;
+}
+
