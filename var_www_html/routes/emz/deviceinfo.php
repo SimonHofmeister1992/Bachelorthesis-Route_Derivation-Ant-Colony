@@ -52,7 +52,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox.streets',
-    accessToken: 'pk.eyJ1IjoiaG9maXNpOTIiLCJhIjoiY2p2Z29lampmMDk2NTN5cDdyeGk3YmpueCJ9.z75NeyMUQWmeuxf2D0Gflg'
+    accessToken: leaflet-api-key
 }).addTo(binOverviewMap);
 // timeout in actual version of leaflet needed to show map in full area
 setTimeout(function(){ binOverviewMap.invalidateSize()}, 50);
